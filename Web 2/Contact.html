@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Web Page</title>
+
+    <style>
+
+ body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            overflow: hidden;
+
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        .container {
+        max-width: 1000px;
+        margin: 5px auto;
+        padding: 20px;
+        background-color: lightgray;
+        border-radius: 10px;
+        overflow: hidden;
+        text-align: center;
+        height: 100vh;
+    }
+
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        .photo-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+
+        }
+
+        .photo {
+            width: fit-content;%;
+            margin: 10px;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInUp 1s forwards;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        
+
+        @media (max-width: 768px) {
+            .main-content {
+                padding: 10px;
+            }
+
+            .photo {
+                width: 100%;
+
+            }
+        }
+                .topnav {
+          overflow: hidden;
+          background-color: #333;
+        }
+
+        .topnav a {
+          float: left;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+        }
+
+        }
+        .topnav a:hover {
+          background-color: #ddd;
+          color: black;
+        }
+
+        .topnav a.active {
+          background-color: #aa6504;
+          color: white;
+         }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 20px;
+        }
+
+        li {
+            background-color: #ddd;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="topnav">
+  <a href="Home.html">Home</a>
+  <a href="About_Us.html">About Us</a>
+  <a href="Photos.html">Photos</a>
+  <a href="IQ_Section.html">Online Inquiry</a>
+  <a class="active" href="Contact.html">Contact Us</a>
+</div>
+<div style="padding-left:16px"></div>
+
+    <h1><center>Contact numbers of sub-offices in Monaragala district</center></h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Office</th>
+                <th>Contact Number</th>
+                <th>Email</th>
+                <th>Address</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Monaragala</td>
+                <td>0552264598</td>
+                <td>dg@dwc.Mon.gov.lk</td>
+                <td>Department of Wildlife Conservation,Wellawaya Road,Monaragala</td>
+               
+            </tr>
+            <tr>
+                <td>Wellawaya</td>
+                <td>0552264487</td>
+                <td>dg@dwc.Wel.gov.lk</td>
+                <td>Department of Wildlife Conservation,Thanamalwila Road,Wellawaya</td>
+               
+            </tr>
+            <tr>
+                <td>Siybalanduwa</td>
+                <td>0552264785</td>
+                <td>dg@dwc.Syb.gov.lk</td>
+                <td>Department of Wildlife Conservation,Lahugala Road,Siyabalanduwa</td>
+               
+               
+            </tr>
+            <tr>
+                <td>Bibila</td>
+                <td>0552264566</td>
+                <td>dg@dwc.BiB.gov.lk</td>
+                <td>Department of Wildlife Conservation,Mahiyanganaya Road,Bibila</td>
+               
+               
+            </tr>
+            
+            
+        </tbody>
+    </table>
+
+
+    <ul>
+        <li>Department of Wildlife Conservation  - +94 11 2 888 585</li>
+        <li>Department of Wildlife Conservation Fax - +94  11 2  883 3555</li>
+        <li>Department of Wildlife Conservation Email - dg@dwc.gov.lk</li>
+
+        <li>Department of Wildlife Conservation Address -Department of Wildlife Conservation,811A, Jayanthipura,Battaramulla, Sri Lanka.
+
+</li>
+    </ul>
+
+</body>
+</html>

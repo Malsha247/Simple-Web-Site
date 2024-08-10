@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wildlife Office</title>
+    <link rel="stylesheet" href="Design.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            overflow: hidden;
+
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        .container {
+        max-width: 1000px;
+        margin: 5px auto;
+        padding: 20px;
+        background-color: lightgray;
+        border-radius: 10px;
+        overflow: hidden;
+        text-align: center;
+        height: 100vh;
+    }
+
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        .photo-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+
+        }
+
+        .photo {
+            width: fit-content;%;
+            margin: 10px;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInUp 1s forwards;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        
+
+        @media (max-width: 768px) {
+            .main-content {
+                padding: 10px;
+            }
+
+            .photo {
+                width: 100%;
+
+            }
+        }
+        .topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #aa6504;
+  color: white;
+ }
+
+    </style>
+</head>
+<body>
+    <div class="topnav">
+  <a href="Home.html">Home</a>      
+  <a class="active" href="About_Us.html">About Us</a>
+  <a href="Photos.html">Photos</a>
+  <a href="IQ_Section.html">Online Inquiry</a>
+  <a href="Contact.html">Contact Us</a>
+</div>
+
+<div style="padding-left:16px"></div>
+
+    
+    
+
+    <div class="container">
+
+
+        <h3>Our Vision</h3>
+        <p>Empowering biodiversity conservation and ecological balance, our wildlife office envisions a world where diverse ecosystems thrive, species coexist, and future generations enjoy the wonders of untamed nature. Through sustainable practices, education, and proactive stewardship, we aim to safeguard the rich tapestry of wildlife, ensuring resilient ecosystems that contribute to the well-being of our planet.</p>
+        <h3>Our Mission</h3>
+        <p>Committed to preserving biodiversity, our wildlife office engages in habitat protection, research, and community collaboration for sustainable conservation and environmental harmony.</p>
+
+        <div class="photo-container">
+            <div class="photo">
+                <img src="Pictures/download (1).jpeg" alt="Wildlife Photo 1">
+            </div>
+            <div class="photo">
+                <img src="Pictures/download.jpeg" alt="Wildlife Photo 2">
+            </div>
+
+        </div>
+        <p>Join us on this journey to make a positive impact on the planet. Learn, engage, and support our mission for a sustainable and thriving ecosystem.</p>
+
+    </div>
+
+    
+</body>
+</html>
